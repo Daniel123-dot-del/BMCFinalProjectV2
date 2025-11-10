@@ -33,7 +33,7 @@ class CartScreen extends StatelessWidget {
                         title: Text(cartItem.name),
                         subtitle: Text('Qty: ${cartItem.quantity}'),
                         trailing: SizedBox(
-                          width: 120, // ✅ Prevent overflow
+                          width: 120, //  Prevent overflow
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
